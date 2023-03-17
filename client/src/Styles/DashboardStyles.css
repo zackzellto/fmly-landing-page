@@ -1,0 +1,373 @@
+@media screen and (max-width: 768px) {
+    .dashboard-mockup-svg{
+        position: relative;
+        margin: auto;
+        width: 300px;
+        max-width: 90%;
+        top: 5px;
+        margin-bottom: 40px;
+    }
+
+    .purple-bg-mockup{
+        background-color: #d1b2ff;
+        margin: auto;
+        width: 1300px;
+        max-width: 90%;
+        max-height: auto;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .dashboard-info-title{
+        font-size: 34px;
+        color: black;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: underline;
+        position: relative;
+        bottom: 80px;
+    }
+    
+    .info-card-dinnertime-title{
+        font-size: 34px;
+        font-weight: 600;
+        transform: scaleX(-1);
+        color: black;
+        margin: auto;
+        position: relative;
+        top: 18px;
+    }
+
+    .info-card-dinnertime-title-bg{
+        margin-top: 20px;
+        height: 60px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        background-color: #ffffff
+    }
+
+    .info-card-cashquest-title{
+        font-size: 34px;
+        font-weight: 600;
+        transform: scaleX(-1);
+        color: black;
+        margin: auto;
+        position: relative;
+        top: 18px;
+    }
+
+    .info-card-cashquest-title-bg{
+        margin-top: 20px;
+        height: 60px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        background-color: #ffffff
+    }
+
+    .info-card-fmlychat-title{
+        font-size: 34px;
+        font-weight: 600;
+        transform: scaleX(-1);
+        color: black;
+        margin: auto;
+        position: relative;
+        top: 18px;
+    }
+
+    .info-card-fmlychat-title-bg{
+        margin-top: 20px;
+        height: 60px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        background-color: #ffffff
+    }
+
+    .info-card-groceries-title{
+        font-size: 34px;
+        font-weight: 600;
+        transform: scaleX(-1);
+        color: black;
+        margin: auto;
+        position: relative;
+        top: 18px;
+    }
+
+    .info-card-groceries-title-bg{
+        margin-top: 20px;
+        height: 60px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        background-color: #ffffff
+    }
+
+    .info-card-groceries{
+        position: relative;
+        margin-top: 100px;
+        width: 314px;
+        height: 327px;
+        max-width: 100%;
+        max-height: auto;
+        margin: auto;
+        z-index: 1;
+        background: #83CBF3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 28px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .info-card-fmlychat{
+        position: relative;                                                                                                                                                                                                       
+        width: 314px;
+        height: 327px;
+        max-width: 100%;
+        max-height: auto;
+        margin: auto;
+        z-index: 1;
+        background: #CBF4AB;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 28px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    }
+
+    .info-card-cashquest{
+        position: relative;
+        margin-bottom: 30px;
+        width: 314px;
+        height: 327px;
+        max-width: 100%;
+        max-height: auto;
+        margin: auto;
+        z-index: 1;
+        background: #F199D8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 28px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .info-card-dinnertime{
+        position: relative;
+        width: 314px;
+        height: 327px;
+        max-width: 100%;
+        max-height: auto;
+        margin: auto;
+        z-index: 1;
+        background: #F1F383;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 28px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .info-text{
+        position: relative;
+        width: 292px;
+        margin: auto;
+        top: 50px;
+        height: 216px;
+        
+        text-align: start;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scaleX(-1);
+        color: #000000;
+        text-indent: 10%;
+    }
+
+    .info-arrow-groceries{
+        display: none;
+    }
+
+    .info-arrow-fmlychat{
+        display: none;
+
+    }
+
+    .info-arrow-cashquest{
+        display: none;
+    }
+
+    .info-arrow-dinnertime{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .dashboard-mockup-svg{
+        position: relative;
+        margin: auto;
+        width: 300px;
+        max-width: 90%;
+        max-height: auto;
+        right: 228px;
+    }
+
+    .purple-bg-mockup{
+        background-color: #d1b2ff;
+        margin: auto;
+        width: 1300px;
+        max-width: 90%;
+        max-height: auto;
+        padding: 10px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+
+    .dashboard-info-title{
+        font-size: 34px;
+        color: black;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 50px;
+        text-decoration: underline;
+        margin-bottom: 30px;
+
+    }
+    
+    .info-card-dinnertime-title{
+        font-size: 34px;
+        font-weight: 600;
+        transform: scaleX(-1);
+        color: black;
+        margin: auto;
+        position: relative;
+        top: 18px;
+    }
+
+    .info-card-dinnertime-title-bg{
+        margin-top: 20px;
+        height: 60px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        background-color: #ffffff
+    }
+
+    .info-card-cashquest-title{
+        font-size: 34px;
+        font-weight: 600;
+        transform: scaleX(-1);
+        color: black;
+        margin: auto;
+        position: relative;
+        top: 18px;
+    }
+
+    .info-card-cashquest-title-bg{
+        margin-top: 20px;
+        height: 60px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        background-color: #ffffff
+    }
+
+    .info-card-fmlychat-title{
+        font-size: 34px;
+        font-weight: 600;
+        transform: scaleX(-1);
+        color: black;
+        margin: auto;
+        position: relative;
+        top: 18px;
+    }
+
+    .info-card-fmlychat-title-bg{
+        margin-top: 20px;
+        height: 60px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        background-color: #ffffff
+    }
+
+    .info-card-groceries-title{
+        font-size: 34px;
+        font-weight: 600;
+        transform: scaleX(-1);
+        color: black;
+        margin: auto;
+        position: relative;
+        top: 18px;
+    }
+
+    .info-card-groceries-title-bg{
+        margin-top: 20px;
+        height: 60px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        background-color: #ffffff
+    }
+
+    .info-card-groceries{
+        background: #83CBF3;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .info-card-fmlychat{
+        background-color: #CBF4AB;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    }
+
+    .info-card-cashquest{
+        background: #F199D8;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .info-card-dinnertime{
+        background: #F1F383;
+        width: 100%;
+        height: auto;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .info-text{
+        position: relative;
+        width: 100%;
+        margin: auto;      
+        text-align: start;
+        font-family: 'Poppins' sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        transform: scaleX(-1);
+        color: #000000;
+    }
+
+    .info-arrow-groceries{
+        position: relative;
+        top: 400px;
+        left: 50px;
+    }
+
+    .info-arrow-fmlychat{
+        position: relative;
+        top: 270px;
+        left: 270px;
+
+    }
+
+    .info-arrow-cashquest{
+        position: relative;
+        top: 260px;
+        right: 40px;
+    }
+
+    .info-arrow-dinnertime{
+        position: relative;
+        top: 380px;
+        right: 270px;
+    }
+
+}

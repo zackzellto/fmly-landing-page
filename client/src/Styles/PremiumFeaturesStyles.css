@@ -1,0 +1,108 @@
+.orange-circle-pf {
+    background-color: #F3D08D;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.premium-features-title{
+    font-size: 34px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+.find-my-fmly-map{
+    width: 100%;
+    max-width: 290px;
+    height: auto;
+    display: flex;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+.fmf-text-svg{
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    z-index: 1;
+}
+
+.fmf-text{
+    color: black;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 30px;
+    position: relative;
+    left: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.premium-features-text{
+    color: #888181;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.fmly-pf-text{
+    color: #83F3DF;
+    font-weight: 600;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+}
+
+.blue-square-pf{
+    background-color: #4D57B1;
+    border-radius: 40px;
+    width: 350px;
+    height: 350px;
+    max-width: 90%;
+    max-height: auto;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 40px;
+}
+
+.bountyboard-minimal-view{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 18px;
+    height: auto;
+    max-width: 100%;
+    max-height: auto;
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.bountyboard-blue-title{
+    color: #83CBF3;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.bountyboard-blue-text{
+    margin-top: 30px;
+    color: black;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 30px;
+    position: relative;
+    left: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
