@@ -1,5 +1,5 @@
 import { Container } from "@material-ui/core";
-import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
+import { Grid } from "@material-ui/core";
 import "../Styles/HomeScreenStyles.css";
 import QRCode from ".././assets/qrcode-download-app.svg";
 import AppStoreButton from ".././assets/ios-download-button.svg";
@@ -43,10 +43,10 @@ const Home = (props: Props) => {
             <img className="QR-code" srcSet={QRCode} alt="QR Code" />{" "}
           </Grid> */}
           {/* <span className="QR-code-text"> (Scan to download) </span> */}
-          
+          <div flex-row>
             <a href="">
               <img
-                className="app-store-button"
+                className="app-store-button w-1/2 "
                 srcSet={AppStoreButton}
                 alt="App Store Button"
               />
@@ -58,6 +58,7 @@ const Home = (props: Props) => {
                 alt="Play Store Button"
               />
             </a>
+          </div>
       
         
         <hr className="homepage-hr-1" />
@@ -65,16 +66,16 @@ const Home = (props: Props) => {
         <hr className="homepage-hr-2" />
        
           <PremiumFeatures />
-       <hr className="homepage-hr-2" />
-        <Grid2>
+       <hr className="homepage-hr-3" />
+        <Grid>
         
           <strong className="pricing-options-text">Pricing Options</strong>
-        </Grid2>
-        <Grid2 container >
+        </Grid>
+        <Grid container >
           <FreePricingModel />
           <PremiumPricingModel />
           {/* <SubscriptionPricingModel /> */}
-        </Grid2>
+        </Grid>
         <hr className="homepage-hr-3" />
       </Container>
     </>

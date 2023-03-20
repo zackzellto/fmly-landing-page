@@ -28,7 +28,7 @@ export const WaitlistSignupForm = () => {
       e.preventDefault();
       try {
         const response = await Axios.post(
-          "http://localhost:8088/WaitlistSignup",
+          "http://localhost:5000/WaitlistSignup",
           { email },
           { headers: { "Access-Control-Allow-Origin": "*" } }
         );
@@ -42,13 +42,12 @@ export const WaitlistSignupForm = () => {
 
   return (
     <>
-      <form noValidate autoComplete="off">
+      <form className="wl-input-form" noValidate autoComplete="off">
         <div>
           <Grid container spacing={2}>
             <Grid xs={12} md={6}>
               <div className="wl-spacer"></div>
               <TextField
-              style={{ boxShadow: "0px 3px 3px rgba(0, 0, 0, 0.25)" }}
                 className="wl-input"
                 id="outlined-email-input"
                 label="Email"

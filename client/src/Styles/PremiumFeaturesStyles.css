@@ -1,14 +1,17 @@
 .orange-circle-pf {
-    background-color: #F3D08D;
+    background-color: #90f38d;
     border-radius: 50%;
-    width: 100%;
-    max-width: 400px;
-    height: 400px;
-    display: flex;
-    position: relative;
+    padding-bottom: 100%; /* Maintain 1:1 aspect ratio */
+    max-width: 95%;
+    height: 0; /* Remove fixed height */
     margin: auto;
+    overflow: hidden; /* Prevent content from overflowing */
+    display: flex;
+    align-items: center;
     margin-bottom: 40px;
-}
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  
 
 .premium-features-title{
     font-size: 34px;
@@ -20,13 +23,14 @@
 }
 
 .find-my-fmly-map{
-    width: 100%;
-    max-width: 290px;
-    height: auto;
-    display: flex;
+    width: 350px;
+    height: 350px;
     position: relative;
-    margin: auto;
+    max-width: 80%;
+    max-height: auto;
     z-index: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 0 auto ; /* Center the element horizontally */
 }
 
 .fmf-text-svg{
@@ -35,17 +39,21 @@
     max-width: 350px;
     height: auto;
     z-index: 1;
+    margin: auto;
+    margin-bottom: 40px;
 }
 
 .fmf-text{
     color: black;
-    text-align: left;
+    text-align: center;
     width: 80%;
     margin-bottom: 30px;
     position: relative;
-    left: 36px;
+    text-align: center;
+    margin: auto;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    margin-bottom: 40px;
 }
 
 .premium-features-text{
@@ -53,7 +61,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 40px;
-    margin-bottom: 40px;
+    margin:auto;
 }
 
 .fmly-pf-text{
@@ -68,22 +76,20 @@
     border-radius: 40px;
     width: 350px;
     height: 350px;
+
     max-width: 90%;
     max-height: auto;
     display: inline-block;
-    margin-right: 5px;
-    margin-bottom: 40px;
+    margin: auto;
 }
 
 .bountyboard-minimal-view{
     width: 150px;
-    height: 150px;
+    height: 350px;
     position: relative;
-    top: 18px;
-    height: auto;
+    margin: auto;
     max-width: 100%;
     max-height: auto;
-    position: relative;
     z-index: 1;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -91,8 +97,14 @@
 .bountyboard-blue-title{
     color: #83CBF3;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Popfepins', sans-serif;
     font-size: 40px;
+    width: fit-content;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .bountyboard-blue-text{
@@ -102,7 +114,8 @@
     width: 80%;
     margin-bottom: 30px;
     position: relative;
-    left: 36px;
+    margin: auto;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    margin-bottom: 40px;
 }
