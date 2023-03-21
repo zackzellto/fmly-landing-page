@@ -1,11 +1,11 @@
 .orange-circle-pf {
     background-color: #90f38d;
     border-radius: 50%;
-    padding-bottom: 100%; /* Maintain 1:1 aspect ratio */
+    padding-bottom: 50%; /* Maintain 1:1 aspect ratio */
     width: 100%;
-    max-width: 800px;
-    height: 0; /* Remove fixed height */
-    max-height: 200px;
+    max-width: 350px;
+    height: auto; /* Remove fixed height */
+    max-height: 350px;
     margin: auto;
     overflow: hidden; /* Prevent content from overflowing */
     align-items: center;
@@ -28,7 +28,7 @@
     position: relative;
     border-radius: 10%;
     margin: auto;
-    top: 170px;
+    top: 65px;
     width: 70%;
     height: auto;
     z-index: 1;

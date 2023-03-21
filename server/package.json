@@ -1,5 +1,5 @@
 {
-  "name": "vite-mern-template",
+  "name": "fmly-landing-page-server",
   "version": "1.0.0",
   "main": "server/index.js",
   "scripts": {
@@ -8,8 +8,6 @@
     "client": "npm start --prefix ../client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "repository": "https://github.com/apicgg/vite-mern-template.git",
-  "author": "Anurag Pramanik <p.anurag@outlook.com>",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
