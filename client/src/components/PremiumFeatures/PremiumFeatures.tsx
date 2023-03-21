@@ -11,9 +11,9 @@ const PremiumFeatures = (props: Props) => {
   return (
     <div>
       <div className='premium-features-title '>Premium Features</div>
-      <Grid>
+   
       <div className='orange-circle-pf' ><img className='find-my-fmly-map' srcSet={fmfMap} alt='fmfMap' ></img> </div>
-      </Grid>
+     
        <img className='fmf-text-svg' srcSet={fmfText} ></img>
        <div className='fmf-text' >A premium feature that allows all of your fmly members 
 to be found via GPS tracking*, providing peace of mind

@@ -2,14 +2,14 @@
     background-color: #90f38d;
     border-radius: 50%;
     padding-bottom: 100%; /* Maintain 1:1 aspect ratio */
-    max-width: 95%;
+    width: 100%;
+    max-width: 800px;
     height: 0; /* Remove fixed height */
+    max-height: 200px;
     margin: auto;
     overflow: hidden; /* Prevent content from overflowing */
-    display: flex;
     align-items: center;
     margin-bottom: 40px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
   
 
@@ -23,14 +23,16 @@
 }
 
 .find-my-fmly-map{
-    width: 350px;
-    height: 350px;
+    max-width: 320px;
+    max-height: 320px;
     position: relative;
-    max-width: 80%;
-    max-height: auto;
+    border-radius: 10%;
+    margin: auto;
+    top: 170px;
+    width: 70%;
+    height: auto;
     z-index: 1;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin: 0 auto ; /* Center the element horizontally */
 }
 
 .fmf-text-svg{
