@@ -4,12 +4,7 @@ import { Card, Grid } from "@material-ui/core";
 import "../../Styles/PricingStructureStyles.css";
 
 const FreePricingModel = () => {
-  const [expanded, setExpanded] = React.useState<string | false>(false);
 
-  const handleChange =
-    (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
-      setExpanded(isExpanded ? panel : false);
-    };
 
   return (
     <Card className="pricing-box-free">
