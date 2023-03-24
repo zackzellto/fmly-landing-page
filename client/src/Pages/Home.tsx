@@ -12,6 +12,7 @@ import { WaitlistSignupForm } from "../components/Forms/Waitlist/WaitlistSignupF
 import DevUpdateScrollEffect from "../components/AppBar/DevUpdateScrollEffect";
 import DashboardInfo from "../components/Dashboard/DashboardInfo";
 import PremiumFeatures from "../components/PremiumFeatures/PremiumFeatures";
+import Footer from "../components/Footer/Footer";
 
 type Props = {};
 
@@ -77,6 +78,7 @@ const Home = (props: Props) => {
           {/* <SubscriptionPricingModel /> */}
         </Grid>
         <hr className="homepage-hr-3" />
+        <Footer />
       </Container>
     </>
   );

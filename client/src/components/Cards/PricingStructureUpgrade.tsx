@@ -1,10 +1,7 @@
-import Typography from "@mui/material/Typography";
 import { Card } from "@material-ui/core";
 import "../../Styles/PricingStructureStyles.css";
 import {  CalendarDaysIcon, BellAlertIcon, ClipboardDocumentCheckIcon, GiftIcon, ChatBubbleBottomCenterTextIcon, MapPinIcon, BanknotesIcon  } from '@heroicons/react/24/solid'
-import StarIconSVG from "../../assets/star-icon.svg";
-import RainbowIconSVG from "../../assets/rainbow-icon.svg";
-import GreenCheckmark from "../../assets/green-checkmark.svg";
+
 
 
 const PremiumPricingModel = () => {
@@ -12,10 +9,15 @@ const PremiumPricingModel = () => {
   return (
     <Card className="pricing-box-premium">
       <div className="pricing-box-premium-bg">
-      <div className="pricing-box-premium-title">
-        Premium
+        <div className="pricing-box-premium-title">
+          Premium      
+            <div className="pricing-box-premium-price">
+              <div className="pricing-box-premium-price-text">
+                $9.99/mo.
+                </div>
+              </div>
       </div>
-      
+
 
       
       </div>

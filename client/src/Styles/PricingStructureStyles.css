@@ -13,6 +13,7 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
 .pricing-box-free{
     width: 320px;
     height: 600px;
@@ -30,8 +31,11 @@
     background-color: #21F3CE;
     margin: auto;
     position: relative;
-    margin-top: 60px;    
+    margin-top: 40px;    
+    margin-bottom: 40px;
   }
+
+
 
 .pricing-box-subscribe{
     width: 320px;
@@ -70,7 +74,7 @@
     padding: 2;
     position: relative;
     text-align: center;
-    top: 70px;
+    top: 20px;
   }
 
   .pricing-box-free-bg{
@@ -113,7 +117,11 @@
     margin: 0;
     padding: 2;
     position: relative;
-    top: 80px;
+    top: 20px;
+  }
+  
+    .pricing-box-premium-price{
+    font-size: 56px;
   }
 
   .pricing-box-premium-bg{

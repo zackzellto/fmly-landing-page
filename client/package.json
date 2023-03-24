@@ -27,6 +27,7 @@
     "@mui/styles": "^5.11.7",
     "@reduxjs/toolkit": "^1.9.1",
     "axios": "^1.2.3",
+    "dotenv": "^16.0.3",
     "font-awesome": "^4.7.0",
     "i18next": "^22.4.9",
     "i18next-browser-languagedetector": "^7.0.1",
