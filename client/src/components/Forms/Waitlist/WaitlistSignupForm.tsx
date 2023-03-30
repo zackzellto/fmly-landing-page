@@ -7,6 +7,7 @@ import Grid from "@mui/material/Unstable_Grid2";
 import { validateEmail } from "../FormValidationChecker";
 import "./WaitlistSignup.css";
 import WaitlistAlert from "../../../components/Alerts/WaitlistAlert";
+import axios from "axios";
 
 
 export const WaitlistSignupForm = () => {
@@ -23,19 +24,17 @@ export const WaitlistSignupForm = () => {
     }
   };
 
-  const handleSubmit: React.MouseEventHandler<HTMLButtonElement> = async (e) => {
-    if (checkEmail()) {
-      e.preventDefault();
-      try {
-        const response = await Axios.post(
-          "http://localhost:5000/WaitlistSignup",
-          { email },
-          { headers: { "Access-Control-Allow-Origin": "*" } }
-        );
-        console.log(response);
-      } catch (error) {
-        console.error(error);
-      }
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    try {
+      const response = await axios.post("http://localhost:5000/api/waitlist", {
+        email: email,
+      });
+      console.log(response.data);
+      // add code to handle successful response from API
+    } catch (error) {
+      console.error(error);
+      // add code to handle error from API
     }
   };
   

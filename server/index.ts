@@ -1,52 +1,33 @@
 require('esm')(module);
 import express from 'express';
+const cors = require("cors");
 import path from 'path';
 
-// Create a new express application instance
 const app: express.Application = express();
 
-
-
-// Serve static files from the public directory
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Parse JSON request bodies
+const corsOptions = {
+  origin: "*",
+  allowedHeaders: "*",
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
-// Define a route that returns a JSON response
-app.get('/api/waitlist', (req, res) => {
-  req.get('Content-Type');  // => "application/json"
-  res.json({ message: 'Hello, World!' });
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
 });
 
-// Define a route that returns a JSON response
-app.get('/api/waitlist/id', (req, res) => {
-  req.get('Content-Type');  // => "application/json"
-  res.json({ message: 'Hello, World!' });
+app.post("/WaitlistSignup", (req, res) => {
+  const email = req.body.email;
+  console.log(email);
+  res.status(200).send("Email received!");
 });
 
-// Define a route that handles POST requests
-app.post('/api/waitlist', (req, res) => {
-  const data = req.body;
-  console.log(data);
-  res.json({ message: 'Email Received!' });
-});
-
-// Define a route that handles DELETE requests
-app.delete('/api/waitlist/id', (req, res) => {
-  const data = req.body;
-  console.log(data);
-  res.json({ message: 'Email Deleted!' });
-});
-
-// Define a route that handles PUT requests
-app.put('/api/waitlist/id', (req, res) => {
-  const data = req.body;
-  console.log(data);
-  res.json({ message: 'Email Updated!' });
-});
-
-// Start the server
 const port = 5000;
 
 app.listen(port, '0.0.0.0', () => {
