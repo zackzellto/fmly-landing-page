@@ -12,7 +12,7 @@ import axios from "axios";
 
 export const WaitlistSignupForm = () => {
 
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState('');
   const [showAlert, setShowAlert] = useState(false);
 
 
@@ -70,7 +70,8 @@ export const WaitlistSignupForm = () => {
               boxShadow: "0px 3px 3px rgba(0, 0, 0, 0.25)",
               transition: "all 0.2s ease-in-out",
                }}
-                className="wl-button"  
+                className="wl-button"
+                type="submit"  
                 onClick={handleSubmit}
               >
                 Join Waitlist!
