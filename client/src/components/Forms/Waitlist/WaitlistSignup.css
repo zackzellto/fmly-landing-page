@@ -23,6 +23,11 @@
         color: #83F3DF;
         font-weight: bold;
         cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .wl-button:hover{
+        transform: scale(1.1);
     }
 
     .wl-spacer{
@@ -61,7 +66,12 @@
     position: relative;
     bottom: 372px;
     left: 120px;
-}
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .wl-button:hover{
+      transform: scale(1.1);
+  }
 
 .wl-spacer{
   display: none;
