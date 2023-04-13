@@ -214,9 +214,9 @@
     .purple-bg-mockup{
         background-color: #d1b2ff;
         margin: auto;
+        height: 1100px;
         width: 1300px;
         max-width: 100%;
-        max-height: auto;
         padding: 10px;
         border-radius: 20px;
         margin-bottom: 30px;
@@ -310,6 +310,9 @@
         width: 30%;
         border-radius: 15px;
         height: auto;
+        position: relative;
+        bottom: 1050px;
+        left: 820px;
         margin-left: 40px;
         transform: matrix(-1, 0, 0, 1, 0, 0);
     }
@@ -319,6 +322,9 @@
         width: 30%;
         border-radius: 15px;
         height: auto;
+        position: relative;
+        bottom: 1070px;
+        left: 820px;
         margin-left: 40px;
         transform: matrix(-1, 0, 0, 1, 0, 0);
 
@@ -329,6 +335,8 @@
         width: 30%;
         border-radius: 15px;
         height: auto;
+        position: relative;
+        bottom: 850px;
         margin-left: 40px;
         transform: matrix(-1, 0, 0, 1, 0, 0);
     }
@@ -338,6 +346,10 @@
         width: 30%;
         border-radius: 15px;
         height: auto;
+        max-width: fit-content;
+        max-height: fit-content;
+        position: relative;
+        bottom: 820px;
         margin-left: 40px;
         transform: matrix(-1, 0, 0, 1, 0, 0);
     }
@@ -345,7 +357,7 @@
     .info-text{
         position: relative;
         width: 90%;
-        padding: 10px;
+        padding: 10px; 
         margin: auto;      
         text-align: start;
         font-family: 'Poppins' sans-serif;
