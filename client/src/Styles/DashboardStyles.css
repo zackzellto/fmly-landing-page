@@ -198,19 +198,24 @@
 
 @media screen and (min-width: 768px) {
     .dashboard-mockup-svg{
-        position: relative;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         margin: auto;
-        width: 300px;
-        max-width: 90%;
+        position: relative;
+        width: 30%;
+        height: auto;
+        max-width: 100%;
         max-height: auto;
-        right: 228px;
+        bottom: 100px;
     }
 
     .purple-bg-mockup{
         background-color: #d1b2ff;
         margin: auto;
         width: 1300px;
-        max-width: 90%;
+        max-width: 100%;
         max-height: auto;
         padding: 10px;
         border-radius: 20px;
@@ -235,7 +240,6 @@
         color: black;
         margin: auto;
         position: relative;
-        top: 18px;
     }
 
     .info-card-dinnertime-title-bg{
@@ -254,7 +258,6 @@
         color: black;
         margin: auto;
         position: relative;
-        top: 18px;
     }
 
     .info-card-cashquest-title-bg{
@@ -273,7 +276,6 @@
         color: black;
         margin: auto;
         position: relative;
-        top: 18px;
     }
 
     .info-card-fmlychat-title-bg{
@@ -292,7 +294,6 @@
         color: black;
         margin: auto;
         position: relative;
-        top: 18px;
     }
 
     .info-card-groceries-title-bg{
@@ -306,30 +307,45 @@
 
     .info-card-groceries{
         background: #83CBF3;
+        width: 30%;
+        border-radius: 15px;
+        height: auto;
+        margin-left: 40px;
         transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 
     .info-card-fmlychat{
         background-color: #CBF4AB;
+        width: 30%;
+        border-radius: 15px;
+        height: auto;
+        margin-left: 40px;
         transform: matrix(-1, 0, 0, 1, 0, 0);
 
     }
 
     .info-card-cashquest{
         background: #F199D8;
+        width: 30%;
+        border-radius: 15px;
+        height: auto;
+        margin-left: 40px;
         transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 
     .info-card-dinnertime{
         background: #F1F383;
-        width: 100%;
+        width: 30%;
+        border-radius: 15px;
         height: auto;
+        margin-left: 40px;
         transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 
     .info-text{
         position: relative;
-        width: 100%;
+        width: 90%;
+        padding: 10px;
         margin: auto;      
         text-align: start;
         font-family: 'Poppins' sans-serif;
@@ -340,28 +356,64 @@
     }
 
     .info-arrow-groceries{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
         position: relative;
-        top: 400px;
-        left: 50px;
+        width: 10%;
+        height: auto;
+        max-width: 30%;
+        max-height: auto;
+        left: 250px;
+        top: 350px;
     }
 
     .info-arrow-fmlychat{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
         position: relative;
-        top: 270px;
-        left: 270px;
+        width: 10%;
+        height: auto;
+        max-width: 30%;
+        max-height: auto;
+        left: 250px;
+        top: 300px;
 
     }
 
     .info-arrow-cashquest{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
         position: relative;
-        top: 260px;
-        right: 40px;
+        width: 10%;
+        height: auto;
+        max-width: 30%;
+        max-height: auto;
+        right: 250px;
+        top: 350px;
     }
 
     .info-arrow-dinnertime{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
         position: relative;
-        top: 380px;
-        right: 270px;
+        width: 10%;
+        height: auto;
+        max-width: 30%;
+        max-height: auto;
+        right: 250px;
+        top: 400px;
     }
 
 }

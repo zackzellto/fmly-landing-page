@@ -1,8 +1,8 @@
 require('esm')(module);
 const cors = require("cors");
-const waitlistRouter = require('../routes//waitlist');
+const waitlistRouter = require('../routes/waitlist');
 const app = express();
-const url = process.env.DB_URL || 'mongodb://localhost:27017/waitlist';
+const url = process.env.MONGODB_URI;
 const corsOptions = {
   origin: "*",
   allowedHeaders: "*",
@@ -18,7 +18,7 @@ mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
 
   app.use(cors(corsOptions));
   app.use(express.json());
-app.use((req, res, next) => {
+  app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   next();
